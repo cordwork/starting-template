@@ -1,5 +1,5 @@
 import { Module } from '@cordwork/core';
-import { PingCommand } from './controllers/ping.command';
+import { PingCommand } from './commands/ping.command';
 
 @Module({
   commands: [PingCommand],
